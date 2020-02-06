@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  padding: 0;  
+  /* height: 100vh; */
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#issMap {
+    height: 100vh;  
+    position: relative;
+    display: block;
+    z-index: -3;
+}
+/* .iss-location {
+    z-index: -1;
+} */
+.iss-location__wrap {
+    padding: 3% 0 0 6%;
+    display: block;
+    z-index: 5;
+    position: fixed;
+}
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 4px;
+    color: #333333;
+}
+h2 {
+    font-family: 'Space Mono', monospace;
+    color: gray;
+    /* opacity: 0.8; */
+}
+
